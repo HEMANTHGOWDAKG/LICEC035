@@ -82,7 +82,8 @@ connect a current souce of 1mA
   To perform the DC analysis we have to select the {DC op pnt} in the edit simulation command and run the simulation
    the figure below is the values obtained from the DC analysis
 
-   <img width="472" alt="image" src="https://github.com/user-attachments/assets/96fdac9f-4c40-4170-8c04-0400ca6c4eb8" />
+  ![image](https://github.com/user-attachments/assets/4bbeecff-a87f-46a7-abb8-e6647fc67049)
+
 
 
    # Trasient analysis:
