@@ -3,7 +3,7 @@
 ## Aim:
 Design and Analyze the MOS differential amplifier circuit for the following specifcations and Perform DC analysis,Transient Analysis,Frequency response and extract parmeter
 
-VDD=2v,P<=1mW,Vicm=1v,Vocm=1.1v,Vp=0.4v
+VDD=2V,P<=1mW,Vicm=1V,Vocm=1.1V,Vp=0.4V
 
 #### Differential Amplifier:
 
