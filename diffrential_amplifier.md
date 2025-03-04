@@ -38,7 +38,8 @@ we got L=3um and W=210um
    To perform the DC analysis we have to select the {DC op pnt} in the edit simulation command and run the simulation
    the figure below is the values obtained from the DC analysis
 
-![ex3 dc cr1](https://github.com/user-attachments/assets/757fb625-4426-4731-bced-723195189cc2)
+![image](https://github.com/user-attachments/assets/a0a6de04-ec0c-4e91-b31f-512c986ca561)
+
 
 
 Here in dc analysis we got the vout as expected and id1 and id2 we got the same 
@@ -82,7 +83,8 @@ connect a current souce of 1mA
   To perform the DC analysis we have to select the {DC op pnt} in the edit simulation command and run the simulation
    the figure below is the values obtained from the DC analysis
 
-  ![image](https://github.com/user-attachments/assets/4bbeecff-a87f-46a7-abb8-e6647fc67049)
+  ![image](https://github.com/user-attachments/assets/676f6fee-a0bc-4566-ad89-41f102a742b2)
+
 
 
 
@@ -123,7 +125,8 @@ connect a current souce of 1mA
 # DC analysis:
 
 
-<img width="472" alt="image" src="https://github.com/user-attachments/assets/417842be-d7ad-4955-8086-b77ea97d490e" />
+![image](https://github.com/user-attachments/assets/2e587c33-4d3c-4a5b-a023-814662be1ad2)
+
 
  # Transient analysis:
  give ac amplitude as 1 for one mosfet and 0 gor other mosfet 
