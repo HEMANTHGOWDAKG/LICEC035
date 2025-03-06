@@ -12,7 +12,8 @@ differential amplifiers  consist of two transistors M1 and M2, whose sources are
 For all this circuit we need find out the AC analysis ,Transient analysis And Frequency Response.
 # Circuit-1
 Components Required: MOSFET(M1,M2 and M3), Resistor,voltage supply's 
-![ex3 cr1](https://github.com/user-attachments/assets/85772e76-3185-4a98-b7b7-a9bab4324d2d)
+![image](https://github.com/user-attachments/assets/5893a344-8754-4068-92ad-fb82374860a3)
+
 
 
 
@@ -73,7 +74,8 @@ Here in dc analysis we got the vout as expected and id1 and id2 we got the same
 Now replace the R3 resister with a current source :
 connect a current souce of 1mA
 
-![CR2](https://github.com/user-attachments/assets/430f3b32-16ef-4a4f-9659-4d480f7fc0bd)
+![image](https://github.com/user-attachments/assets/1e008562-9f7f-4d5e-b5b1-7541787058a0)
+
 
 
 
@@ -114,7 +116,8 @@ connect a current souce of 1mA
   Now replace the R3 resister with a Mosfet  :
     Given vp=0.4v and wkt vt=0.36v we got the gate voltage of the new mosfet as 0.76v 
 
-  ![cr3](https://github.com/user-attachments/assets/204c985a-6d9e-4906-8513-3d685449909b)
+  ![image](https://github.com/user-attachments/assets/e32cd461-58a3-48e5-a363-5752cc71f6c1)
+
 
 
  To get the output voltage and vp and current desired value we have to 
