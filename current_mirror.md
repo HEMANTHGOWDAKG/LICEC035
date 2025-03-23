@@ -232,11 +232,13 @@ Perform DC analysis,trasient and AC analysis.
 
 ### AC Analysis:
 
-![image](https://github.com/user-attachments/assets/3b9e29f3-9baf-46d9-abe0-92999b9fb33b)
+
+![image](https://github.com/user-attachments/assets/b3c9df10-6621-420c-909d-bc2d800cc9e4)
 
 
 
 **Output Waveform:**
 
-![a5](https://github.com/user-attachments/assets/6f85826b-afc4-4928-956d-1dadf4af64e4)
+
+![image](https://github.com/user-attachments/assets/3b9e29f3-9baf-46d9-abe0-92999b9fb33b)
 
