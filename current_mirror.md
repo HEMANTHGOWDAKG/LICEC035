@@ -36,11 +36,11 @@ WKT (w/L) ratio is 16.667.
 
 Therefore for L=180nm the w=3um.
 
-|Mosfet     |  Id                 | 
-|-----------|---------------------|
-|  M1       |   0.000277527       |             
-|  M2       |   0.000277527       |         
-|  M3       |   0.0002778         |             
+Mosfet M1: Id = 0.000277527
+
+Mosfet M2: Id = 0.000277527
+
+Mosfet M3: Id = 0.0002778           
 
 **(b)L=500nm.**
 
@@ -48,11 +48,11 @@ WKT(w/L) ratio is 16.667.
 
 Therefore for L=500nm the w=8.334um.
 
-|Mosfet     |  Id                   |  
-|-----------|-----------------------|
-|  M1       |   0.000281241         |             
-|  M2       |   0.000281241         |             
-|  M3       |   0.0002778           |             
+Mosfet M1: Id = 0.000281241
+
+Mosfet M2: Id = 0.000281241
+
+Mosfet M3: Id = 0.0002778          
 
 **(c)L=1um.**
 
@@ -61,11 +61,11 @@ WKT (w/L) ratio is 16.667.
 Therefore for L=1um the w=16.667um.
 
 
-|Mosfet     |  Id                   | 
-|-----------|-----------------------|
-|  M1       |   0.000280654         |             
-|  M2       |   0.000280654         |             
-|  M3       |   0.0002778           |             
+Mosfet M1: Id = 0.000280654
+
+Mosfet M2: Id = 0.000280654
+
+Mosfet M3: Id = 0.0002778            
 
 
 ## Transient Analysis:
@@ -80,7 +80,8 @@ Therefore for L=1um the w=16.667um.
 * Our dc_offset = 0.838V and assume amplitude as 50mV and frequency as 1Khz.
 
 
-![image](https://github.com/user-attachments/assets/410720bd-1d2f-4870-83f6-7b2074ef56ab)
+![Screenshot 2025-03-22 160248](https://github.com/user-attachments/assets/44094458-400c-4e82-827a-17df48e34f91)
+
 
 
 **OutPut Waveform:**
@@ -92,7 +93,7 @@ The expected gain of the circuit is -10V/V, but the actual gain from the transie
 
 ## AC Analysis:
 
-![image](https://github.com/user-attachments/assets/3acd5271-b4b0-4f6d-8a4d-77b35bdaf146)
+![Screenshot 2025-03-22 155821](https://github.com/user-attachments/assets/cf266073-60a8-4493-8deb-4de5a19ba4c0)
 
 
 #### Steps to get Ac analysis Waveform:
@@ -107,10 +108,17 @@ The expected gain of the circuit is -10V/V, but the actual gain from the transie
 
 The Expected gain in db of the circuit is 20db.But the obtained gain from the AC analysis(frequency response) is 22.16db.
 
-|Parameter      |Theory value  | Practical value |
-|---------------|--------------|-----------------|
-|Av(in dB)      | 20dB         | 22.16dB         |
-|Av(in V/V)     | 10           | 10.2            |
+Av (in dB):
+
+Theory value = 20dB
+
+Practical value = 22.16dB
+
+Av (in V/V):
+
+Theory value = 10
+
+Practical value = 10.2
 
 
 ## DC Analysis:(for mirror ratio 1:2)
@@ -147,7 +155,9 @@ Vin is selected in such a way that it should be in saturation region so the give
 * Our dc_offset = 0.763V and assume amplitude as 50mV and frequency as 1Khz.
 
 
-![image](https://github.com/user-attachments/assets/76a6254e-6d97-44d6-8dc9-aca2a2df1c74)
+![Screenshot 2025-03-22 162219](https://github.com/user-attachments/assets/3e54254a-e03f-4c8d-8a6d-e4550452668b)
+
+
 
 
 
@@ -162,7 +172,7 @@ The Expected gain of the circuit is -10V/V.But the obtained gain from the transi
 
 ## AC Analysis:
 
-![image](https://github.com/user-attachments/assets/2bcce09b-3384-4867-9c15-5a89b2e8ab64)
+![Screenshot 2025-03-22 162419](https://github.com/user-attachments/assets/34d2b2ce-9f72-4460-8a30-33eacf63de72)
 
 
 
@@ -179,20 +189,17 @@ The Expected gain of the circuit is -10V/V.But the obtained gain from the transi
 
 The Expected gain in db of the circuit is 21.34db.But the obtained gain from the AC analysis(frequency response) is 24.6db.
 
-|Parameter      |Theory value  | Practical value |
-|---------------|--------------|-----------------|
-|Av(in dB)      | 21.34dB      | 24.6dB         |
-|Av(in V/V)     | 10           | 11.68           |
+Av (in dB):
 
+Theory value = 21.34dB
 
+Practical value = 24.6dB
 
-### **Comparison Table:**
-| **Parameter**  | **Mirror Ratio 1:1** (Theory) | **Mirror Ratio 1:1** (Practical) | **Mirror Ratio 1:2** (Theory) | **Mirror Ratio 1:2** (Practical) |
-|---------------|-----------------------------|-----------------------------|-----------------------------|-----------------------------|
-| Av (in dB)    | 20 dB                        | 22.16 dB                     | 21.34 dB                     | 24.6 dB                     |
-| Av (in V/V)   | 10                           | 10.2                          | 10                           | 11.68                         |
-| 3 dB Bandwidth | -                            | 2.267 GHz                     | -                            | 1.173 GHz                     |  
+Av (in V/V):
 
+Theory value = 10
+
+Practical value = 11.68
 
 
 ### Inference:
@@ -233,7 +240,7 @@ Perform DC analysis,trasient and AC analysis.
 ### AC Analysis:
 
 
-![image](https://github.com/user-attachments/assets/b3c9df10-6621-420c-909d-bc2d800cc9e4)
+![a6](https://github.com/user-attachments/assets/7f25c62d-aef6-4887-ae26-ed3e339e19ff)
 
 
 
