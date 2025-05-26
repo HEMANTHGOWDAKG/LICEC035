@@ -21,7 +21,8 @@ where R is the resistance in ohms , and C is the capacitance in farads (F).
 
 In summary, a monostable multivibrator using a 555 timer stays low until triggered. After receiving a trigger pulse, the output goes high for a calculated duration (based on R and C), and then it automatically returns to low. This setup is commonly used in applications like push-button pulse generators, where a single press produces a well-timed output.
 ## Circuit Diagram:
-![image](https://github.com/user-attachments/assets/bb37f20b-66b4-4744-901d-e0262de2926d)
+![image](https://github.com/user-attachments/assets/3925d1ca-44ed-4aae-b9a3-91eafe31066b)
+
 
 ## Calculation:
 Given that T=0.5ms and assume c=.1uF.
@@ -85,16 +86,18 @@ In short, the output stays LOW until triggered. Then it goes HIGH for a set time
 
 
 ## Circuit Diagram:
-![image](https://github.com/user-attachments/assets/b07bcbbe-72dd-4548-a828-e1ff5dc9cebd)
+![image](https://github.com/user-attachments/assets/06ce846a-aa55-4aef-8948-ab99cc94f60a)
+
 
 
 ## Waveform
 ### Case 1:
-![image](https://github.com/user-attachments/assets/bdcbd7d8-b042-44d8-a02f-16989a367a90)
+![image](https://github.com/user-attachments/assets/f3be1c98-049b-44d0-a894-eb7ba90c2ac8)
+
 
 The first waveform is the continuous square wave output of the Astable Multivibrator. The second waveform shows the Differentiator Circuit output, which produces sharp spikes at the transitions of the square wave. The third waveform is from the Negative Clipper Circuit, which removes the negative parts of these spikes, passing only the positive portions. Finally, the fourth waveform is the output of the Monostable Multivibrator, generating a single pulse of 0.5 ms duration each time it is triggered by the clipper’s output.
 ### Case 2:
-![image](https://github.com/user-attachments/assets/bb0dabe9-f63f-4be1-9e6b-fbbc78f23174)
+![image](https://github.com/user-attachments/assets/03758771-c679-427e-8f46-dda33c2fbf26)
 
 The first waveform shows the output of the Astable Multivibrator. The second waveform is from the Differentiator Circuit, producing sharp spikes at the transitions of the square wave. The third waveform represents the output of the Negative Clipper Circuit, which removes the negative portions of these spikes. The fourth waveform is the output of the Monostable Multivibrator, generating a pulse with a width of 0.5 ms, using a capacitor value of 1uF.
 
@@ -147,7 +150,8 @@ In Case 3, the ON time was 0.3 ms and OFF time was 0.4 ms, but this was achieved
 13.	Set supply voltage (Vcc).
 
 ## Circuit Diagram
-![image](https://github.com/user-attachments/assets/303eba91-66eb-4a6a-9dbc-12f03dbb176c)
+![image](https://github.com/user-attachments/assets/a791524c-8ba7-422d-840e-e3a13fb0f554)
+
 
 
 ## Otuput Waveform
